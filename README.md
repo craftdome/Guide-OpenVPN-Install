@@ -395,6 +395,9 @@ server 10.9.0.0 255.255.0.0
 ```
 
 2. Созданный сертификат (например,`server1.ovpn`) передаём на сервер **VPN1** в каталог `/etc/openvpn` и меняем расширение на `.conf`.
+```
+mv /etc/openvpn/server1.ovpn /etc/openvpn/server1.conf
+```
 
 ## Шаг 2. Сервер **VPN1**
 
